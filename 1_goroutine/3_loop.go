@@ -1,11 +1,11 @@
-package main
+package goroutine
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func loop() {
 	fmt.Println("Percobaan 2")
 
 	go loop1()

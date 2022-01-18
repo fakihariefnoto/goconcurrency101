@@ -1,10 +1,10 @@
-package main
+package goroutine
 
 import (
 	"fmt"
 )
 
-func main() {
+func notwork() {
 	fmt.Println("Percobaan 1")
 
 	go func() {

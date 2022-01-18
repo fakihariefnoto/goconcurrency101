@@ -1,11 +1,11 @@
-package main
+package goroutine
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func nested() {
 	fmt.Println("Percobaan 2")
 
 	go loop1()
@@ -15,14 +15,14 @@ func main() {
 
 }
 
-func loop1() {
+func nestedloop1() {
 	for i := 1; i < 5; i++ {
 		fmt.Println("Dari loop 1 -> ", i)
-		go loop2(i)
+		go nestedloop2(i)
 	}
 }
 
-func loop2(x int) {
+func nestedloop2(x int) {
 	for i := x; i < 5; i++ {
 		fmt.Printf("Dari loop 2-%v -> %v\n", x, i)
 	}
