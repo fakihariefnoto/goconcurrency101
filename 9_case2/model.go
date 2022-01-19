@@ -1,4 +1,4 @@
-package case2
+package main
 
 type ShopInfo struct {
 	ID          string  `json:"id"`
