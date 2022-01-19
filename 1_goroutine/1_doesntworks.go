@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func notwork() {
+func main() {
 	fmt.Println("Percobaan 1")
 
 	go func() {

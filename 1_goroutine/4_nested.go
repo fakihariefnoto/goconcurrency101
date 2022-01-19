@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func nested() {
+func main() {
 	fmt.Println("Percobaan 2")
 
 	go loop1()

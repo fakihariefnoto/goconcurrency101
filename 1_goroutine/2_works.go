@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func work() {
+func main() {
 	fmt.Println("Percobaan 2")
 
 	go func() {
