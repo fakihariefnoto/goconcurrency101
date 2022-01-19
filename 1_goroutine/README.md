@@ -1,1 +1,2 @@
-Tokopedia Tech Workshop - Concurrency in Golang 2022
+In this directory you can see the examples of how goroutine behavior in golang
+
