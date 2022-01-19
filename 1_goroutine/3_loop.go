@@ -8,16 +8,16 @@ import (
 func main() {
 	fmt.Println("Percobaan 2")
 
-	go loop1()
-	go loop2()
+	go loop1(10) // with param
+	go loop2()   // without param
 
 	fmt.Println("Output dari main goroutine")
 	time.Sleep(1000 * time.Millisecond)
 
 }
 
-func loop1() {
-	for i := 0; i < 10; i++ {
+func loop1(x int) {
+	for i := 0; i < x; i++ {
 		fmt.Println("Dari loop 1 -> ", i)
 	}
 }
