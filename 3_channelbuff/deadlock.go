@@ -6,9 +6,9 @@ import (
 
 func main() {
 	ch := make(chan string, 2)
-	ch <- "geeksforgeeks"
-	ch <- "hello"
-	ch <- "geeks"
+	ch <- "first messages"
+	ch <- "second messages"
+	ch <- "deadlock messages"
 	fmt.Println(<-ch)
 	fmt.Println(<-ch)
 	fmt.Println(<-ch)
