@@ -11,7 +11,7 @@ var client http.Client = http.Client{}
 
 const base_url = "https://61dd5a81f60e8f001766874a.mockapi.io"
 
-func Init() {
+func main() {
 	shops, err := GetAllShop()
 
 	if err != nil {
