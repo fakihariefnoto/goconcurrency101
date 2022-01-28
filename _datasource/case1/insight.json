@@ -1,0 +1,8 @@
+{
+    "product_id": 123,
+    "rating": 4.6,
+    "sold_stats": 120,
+    "count_review": 20,
+    "discussion": 12,
+    "response_time": "1.917µs"
+}
