@@ -23,7 +23,11 @@ func main() {
 }
 
 func fetchStandartNoConcurrency(shops []ShopInfo) {
-	defer caculateTime(time.Now(), "standart w/o concurrency")
+	t := time.Now()
+	fmt.Println("dari no concurrent", time.Now())
+	defer caculateTime(t, "standart w/o concurrency")
+
+	time.Sleep(3 * time.Second)
 
 	shop := shops[0]
 
@@ -49,7 +53,10 @@ func fetchStandartNoConcurrency(shops []ShopInfo) {
 }
 
 func fetchWithConcurrency(shops []ShopInfo) {
+	fmt.Println("dari no concurrent", time.Now())
 	defer caculateTime(time.Now(), "with concurrency")
+
+	time.Sleep(3 * time.Second)
 
 	wgShop := sync.WaitGroup{}
 	wgShop.Add(2)
@@ -99,5 +106,6 @@ func fetchWithConcurrency(shops []ShopInfo) {
 }
 
 func caculateTime(start time.Time, module string) {
+	fmt.Println("dari calculate ", start)
 	fmt.Printf("%s took %v\n", module, time.Since(start))
 }
