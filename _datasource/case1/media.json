@@ -1,0 +1,12 @@
+{
+    "product_id": 123,
+    "main_image": {
+        "id": 1123,
+        "file_path": "/path/to/file",
+        "file_name": "image_batu.jpeg",
+        "base_url": "www.tokopedia.com",
+        "response_time": ""
+    },
+    "additional_image": [],
+    "response_time": "1.613µs"
+}

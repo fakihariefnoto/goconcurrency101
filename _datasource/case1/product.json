@@ -1,0 +1,8 @@
+{
+    "id": 123,
+    "name": "Batu Akik",
+    "description": "Ini adalah batu akik terbaik",
+    "condition": 1,
+    "price": 250000,
+    "response_time": "1.417µs"
+}

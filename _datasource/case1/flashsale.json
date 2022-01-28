@@ -1,0 +1,7 @@
+{
+    "id": 1,
+    "product_id": 123,
+    "discounted_price": 200000,
+    "is_active": true,
+    "response_time": "1.554µs"
+}

@@ -1,0 +1,2739 @@
+{
+    "meta": {
+        "view": {
+            "id": "mc52-syum",
+            "name": "Fireball And Bolide Reports",
+            "assetType": "dataset",
+            "attribution": "Near Earth Object Program",
+            "attributionLink": "http://neo.jpl.nasa.gov/fireball/",
+            "averageRating": 0,
+            "category": "Space Science",
+            "createdAt": 1427993403,
+            "description": "Fireballs and bolides are astronomical terms for exceptionally bright meteors that are spectacular enough to to be seen over a very wide area. The following table provides a chronological data summary of fireball and bolide events provided by U.S. Government sensors. Ground-based observers sometimes also witness these events at night, or much more rarely in daylight, as impressive atmospheric light displays. This website is not meant to be a complete list of all fireball events. Only the brightest fireballs are noted.\r\n\r\nA meteoroid is generally defined as an asteroid or comet fragment that orbits the Sun and has an approximate size between ten microns and a meter or so. Meteors, or \"shooting stars,\" are the visible paths of meteoroids that have entered the Earth's atmosphere at high velocities. A fireball is an unusually bright meteor that reaches a visual magnitude of -3 or brighter when seen at the observer's zenith. Objects causing fireball events can exceed one meter in size. Fireballs that explode in the atmosphere are technically referred to as bolides although the terms fireballs and bolides are often used interchangeably.\r\n\r\nDuring the atmospheric entry phase, an impacting object is both slowed and heated by atmospheric friction. In front of it, a bow shock develops where atmospheric gases are compressed and heated. Some of this energy is radiated to the object causing it to ablate, and in most cases, to break apart. Fragmentation increases the amount of atmosphere intercepted and so enhances ablation and atmospheric braking. The object catastrophically disrupts when the force from the unequal pressures on the front and back sides exceeds its tensile strength.\r\n\r\nObjects causing fireballs are usually not large enough to survive passage through the Earth's atmosphere intact, although fragments, or meteorites, are sometimes recovered on the ground. The approximate total radiated energy in the atmosphere is provided in unit of Joules, a unit of energy given in kilograms times velocity squared, or kg x (m/s)2. An event with an energy equivalent of one thousand tons of TNT explosives is termed a kiloton (kt) event, where 1 kt = 4.185 x 1012 Joules. In the accompanying table, the total radiated energy is given but this is always less that the total impact energy. Peter Brown and colleagues have provided an empirical expression to approximately provide the total impact energy in kt (E), given the optical radiant energy in kt (Eo) (see: Brown et al., The flux of small near-Earth objects colliding with the Earth. Nature, vol. 420, 21 Nov. 2002, pp. 294-296).\r\n\r\nE = 8.2508 x Eo0.885\r\n\r\nThe accompanying table provides information on the date and time of each fireball event, its geographic location, its altitude and velocity at peak brightness, its approximate total optical radiated energy and its calculated total impact energy. The pre-impact velocity components are expressed in a geocentric Earth-fixed reference frame defined as follows: the z-axis is directed along the Earth's rotation axis towards the celestial north pole, the x-axis lies in the Earth's equatorial plane, directed towards the prime meridian, and the y-axis completes the right-handed coordinate system.\r\n\r\nhttp://neo.jpl.nasa.gov/fireball/",
+            "displayType": "table",
+            "downloadCount": 4518,
+            "hideFromCatalog": false,
+            "hideFromDataJson": false,
+            "indexUpdatedAt": 1530129675,
+            "newBackend": true,
+            "numberOfComments": 0,
+            "oid": 10859320,
+            "provenance": "official",
+            "publicationAppendEnabled": false,
+            "publicationDate": 1428430880,
+            "publicationGroup": 2592729,
+            "publicationStage": "published",
+            "rowClass": "",
+            "rowsUpdatedAt": 1430641811,
+            "rowsUpdatedBy": "a6xx-j6mr",
+            "tableId": 2626203,
+            "totalTimesRated": 0,
+            "viewCount": 9593,
+            "viewLastModified": 1530129042,
+            "viewType": "tabular",
+            "approvals": [
+                {
+                    "reviewedAt": 1428610226,
+                    "reviewedAutomatically": true,
+                    "state": "approved",
+                    "submissionId": 650259,
+                    "submissionObject": "public_audience_request",
+                    "submissionOutcome": "change_audience",
+                    "submittedAt": 1428610226,
+                    "workflowId": 2019,
+                    "submissionDetails": {
+                        "permissionType": "READ"
+                    },
+                    "submissionOutcomeApplication": {
+                        "failureCount": 0,
+                        "status": "success"
+                    },
+                    "submitter": {
+                        "id": "isxt-qkkm",
+                        "displayName": "NASA Public Data"
+                    }
+                }
+            ],
+            "columns": [
+                {
+                    "id": -1,
+                    "name": "sid",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":sid",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "id",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":id",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "position",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":position",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "created_at",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":created_at",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "created_meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":created_meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "updated_at",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":updated_at",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "updated_meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":updated_meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": 198224697,
+                    "name": "Date/Time - Peak Brightness (UT)",
+                    "dataTypeName": "calendar_date",
+                    "fieldName": "date_time_peak_brightness_ut",
+                    "position": 1,
+                    "renderTypeName": "calendar_date",
+                    "tableColumnId": 27309159,
+                    "width": 484,
+                    "cachedContents": {
+                        "non_null": 92,
+                        "largest": "2015-04-30T10:21:01",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "2012-07-27T04:19:50",
+                                "count": 20
+                            },
+                            {
+                                "item": "2012-07-25T07:48:20",
+                                "count": 19
+                            },
+                            {
+                                "item": "2012-05-25T11:31:24",
+                                "count": 18
+                            },
+                            {
+                                "item": "2012-05-15T11:04:17",
+                                "count": 17
+                            },
+                            {
+                                "item": "2012-05-04T21:54:49",
+                                "count": 16
+                            },
+                            {
+                                "item": "2012-04-23T22:01:10",
+                                "count": 15
+                            },
+                            {
+                                "item": "2012-04-21T16:08:23",
+                                "count": 14
+                            },
+                            {
+                                "item": "2010-12-25T23:24:00",
+                                "count": 13
+                            },
+                            {
+                                "item": "2009-11-21T20:53:00",
+                                "count": 12
+                            },
+                            {
+                                "item": "2009-10-08T02:57:00",
+                                "count": 11
+                            }
+                        ],
+                        "smallest": "2009-10-08T02:57:00"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224713,
+                    "name": "Latitude (Deg)",
+                    "dataTypeName": "text",
+                    "fieldName": "latitude_deg",
+                    "position": 2,
+                    "renderTypeName": "text",
+                    "tableColumnId": 27309171,
+                    "width": 268,
+                    "cachedContents": {
+                        "non_null": 92,
+                        "largest": "86.7N",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "63.1N",
+                                "count": 20
+                            },
+                            {
+                                "item": "36.4N",
+                                "count": 19
+                            },
+                            {
+                                "item": "41.8S",
+                                "count": 18
+                            },
+                            {
+                                "item": "61.8S",
+                                "count": 17
+                            },
+                            {
+                                "item": "76.7N",
+                                "count": 16
+                            },
+                            {
+                                "item": "36.2N",
+                                "count": 15
+                            },
+                            {
+                                "item": "15.8S",
+                                "count": 14
+                            },
+                            {
+                                "item": "38.0N",
+                                "count": 13
+                            },
+                            {
+                                "item": "22.0S",
+                                "count": 12
+                            },
+                            {
+                                "item": "4.2S",
+                                "count": 11
+                            }
+                        ],
+                        "smallest": "0.0N"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224715,
+                    "name": "Longitude (Deg)",
+                    "dataTypeName": "text",
+                    "fieldName": "longitude_deg",
+                    "position": 3,
+                    "renderTypeName": "text",
+                    "tableColumnId": 27309173,
+                    "width": 280,
+                    "cachedContents": {
+                        "non_null": 92,
+                        "largest": "96.3E",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "64.6W",
+                                "count": 20
+                            },
+                            {
+                                "item": "41.5E",
+                                "count": 19
+                            },
+                            {
+                                "item": "36.2W",
+                                "count": 18
+                            },
+                            {
+                                "item": "135.5W",
+                                "count": 17
+                            },
+                            {
+                                "item": "10.6W",
+                                "count": 16
+                            },
+                            {
+                                "item": "107.4E",
+                                "count": 15
+                            },
+                            {
+                                "item": "174.8W",
+                                "count": 14
+                            },
+                            {
+                                "item": "158.0E",
+                                "count": 13
+                            },
+                            {
+                                "item": "29.2E",
+                                "count": 12
+                            },
+                            {
+                                "item": "120.6E",
+                                "count": 11
+                            }
+                        ],
+                        "smallest": "10.6W"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224699,
+                    "name": "Altitude (km)",
+                    "dataTypeName": "number",
+                    "fieldName": "altitude_km",
+                    "position": 4,
+                    "renderTypeName": "number",
+                    "tableColumnId": 27309160,
+                    "width": 256,
+                    "cachedContents": {
+                        "non_null": 68,
+                        "average": "32.31470588235294",
+                        "largest": "66.6",
+                        "null": 24,
+                        "top": [
+                            {
+                                "item": "39",
+                                "count": 20
+                            },
+                            {
+                                "item": "30.7",
+                                "count": 19
+                            },
+                            {
+                                "item": "26.3",
+                                "count": 18
+                            },
+                            {
+                                "item": "37",
+                                "count": 17
+                            },
+                            {
+                                "item": "22.2",
+                                "count": 16
+                            },
+                            {
+                                "item": "40.7",
+                                "count": 15
+                            },
+                            {
+                                "item": "26",
+                                "count": 14
+                            },
+                            {
+                                "item": "23.3",
+                                "count": 13
+                            },
+                            {
+                                "item": "36.1",
+                                "count": 12
+                            },
+                            {
+                                "item": "33.3",
+                                "count": 11
+                            },
+                            {
+                                "item": "29.3",
+                                "count": 10
+                            },
+                            {
+                                "item": "27.8",
+                                "count": 9
+                            },
+                            {
+                                "item": "35",
+                                "count": 8
+                            },
+                            {
+                                "item": "28.1",
+                                "count": 7
+                            },
+                            {
+                                "item": "23.8",
+                                "count": 6
+                            },
+                            {
+                                "item": "38.7",
+                                "count": 5
+                            },
+                            {
+                                "item": "36",
+                                "count": 4
+                            },
+                            {
+                                "item": "27.2",
+                                "count": 3
+                            },
+                            {
+                                "item": "26.8",
+                                "count": 2
+                            },
+                            {
+                                "item": "25.2",
+                                "count": 1
+                            }
+                        ],
+                        "smallest": "18.7",
+                        "sum": "2197.4"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224701,
+                    "name": "Velocity (km/s)",
+                    "dataTypeName": "number",
+                    "fieldName": "velocity_km_s",
+                    "position": 5,
+                    "renderTypeName": "number",
+                    "tableColumnId": 27309161,
+                    "width": 280,
+                    "cachedContents": {
+                        "non_null": 7,
+                        "average": "19.22857142857143",
+                        "largest": "32.1",
+                        "null": 85,
+                        "top": [
+                            {
+                                "item": "16.2",
+                                "count": 20
+                            },
+                            {
+                                "item": "12.4",
+                                "count": 19
+                            },
+                            {
+                                "item": "18",
+                                "count": 18
+                            },
+                            {
+                                "item": "18.6",
+                                "count": 17
+                            },
+                            {
+                                "item": "18.1",
+                                "count": 16
+                            },
+                            {
+                                "item": "32.1",
+                                "count": 15
+                            },
+                            {
+                                "item": "19.2",
+                                "count": 14
+                            }
+                        ],
+                        "smallest": "12.4",
+                        "sum": "134.6"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224704,
+                    "name": "Velocity Components (km/s): vx",
+                    "dataTypeName": "number",
+                    "fieldName": "velocity_components_km_s_vx",
+                    "position": 6,
+                    "renderTypeName": "number",
+                    "tableColumnId": 27309162,
+                    "width": 460,
+                    "cachedContents": {
+                        "non_null": 52,
+                        "average": "1.469230769230769",
+                        "largest": "21.3",
+                        "null": 40,
+                        "top": [
+                            {
+                                "item": "-2.3",
+                                "count": 20
+                            },
+                            {
+                                "item": "1.4",
+                                "count": 19
+                            },
+                            {
+                                "item": "-1.9",
+                                "count": 18
+                            },
+                            {
+                                "item": "-10.2",
+                                "count": 17
+                            },
+                            {
+                                "item": "-8",
+                                "count": 16
+                            },
+                            {
+                                "item": "5",
+                                "count": 15
+                            },
+                            {
+                                "item": "0.8",
+                                "count": 14
+                            },
+                            {
+                                "item": "-0.8",
+                                "count": 13
+                            },
+                            {
+                                "item": "18",
+                                "count": 12
+                            },
+                            {
+                                "item": "3",
+                                "count": 11
+                            },
+                            {
+                                "item": "14",
+                                "count": 10
+                            }
+                        ],
+                        "smallest": "-35.4",
+                        "sum": "76.4"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224706,
+                    "name": "Velocity Components (km/s): vy",
+                    "dataTypeName": "number",
+                    "fieldName": "velocity_components_km_s_vy",
+                    "position": 7,
+                    "renderTypeName": "number",
+                    "tableColumnId": 27309164,
+                    "width": 460,
+                    "cachedContents": {
+                        "non_null": 52,
+                        "average": "-2.836538461538462",
+                        "largest": "16.1",
+                        "null": 40,
+                        "top": [
+                            {
+                                "item": "-2.3",
+                                "count": 20
+                            },
+                            {
+                                "item": "-13.3",
+                                "count": 19
+                            },
+                            {
+                                "item": "14.1",
+                                "count": 18
+                            },
+                            {
+                                "item": "-5.2",
+                                "count": 17
+                            },
+                            {
+                                "item": "-23.7",
+                                "count": 16
+                            },
+                            {
+                                "item": "-11.6",
+                                "count": 15
+                            },
+                            {
+                                "item": "2",
+                                "count": 14
+                            },
+                            {
+                                "item": "1.1",
+                                "count": 13
+                            },
+                            {
+                                "item": "-2",
+                                "count": 12
+                            },
+                            {
+                                "item": "-17",
+                                "count": 11
+                            },
+                            {
+                                "item": "-16",
+                                "count": 10
+                            }
+                        ],
+                        "smallest": "-43.5",
+                        "sum": "-147.5"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224708,
+                    "name": "Velocity Components (km/s): vz",
+                    "dataTypeName": "number",
+                    "fieldName": "velocity_components_km_s_vz",
+                    "position": 8,
+                    "renderTypeName": "number",
+                    "tableColumnId": 27309166,
+                    "width": 460,
+                    "cachedContents": {
+                        "non_null": 52,
+                        "average": "-1.138461538461538",
+                        "largest": "17",
+                        "null": 40,
+                        "top": [
+                            {
+                                "item": "5.1",
+                                "count": 20
+                            },
+                            {
+                                "item": "1",
+                                "count": 19
+                            },
+                            {
+                                "item": "-11.5",
+                                "count": 18
+                            },
+                            {
+                                "item": "12.4",
+                                "count": 17
+                            },
+                            {
+                                "item": "-14.5",
+                                "count": 16
+                            },
+                            {
+                                "item": "-0.7",
+                                "count": 15
+                            },
+                            {
+                                "item": "-18.4",
+                                "count": 14
+                            },
+                            {
+                                "item": "17",
+                                "count": 13
+                            },
+                            {
+                                "item": "-4",
+                                "count": 12
+                            },
+                            {
+                                "item": "-27",
+                                "count": 11
+                            },
+                            {
+                                "item": "-6",
+                                "count": 10
+                            }
+                        ],
+                        "smallest": "-27",
+                        "sum": "-59.2"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224710,
+                    "name": "Total Radiated Energy (J)",
+                    "dataTypeName": "number",
+                    "fieldName": "total_radiated_energy_j",
+                    "position": 9,
+                    "renderTypeName": "number",
+                    "tableColumnId": 27309167,
+                    "width": 400,
+                    "cachedContents": {
+                        "non_null": 92,
+                        "average": "4897684782608.696",
+                        "largest": "375000000000000",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "20000000000",
+                                "count": 20
+                            },
+                            {
+                                "item": "34000000000",
+                                "count": 19
+                            },
+                            {
+                                "item": "44000000000",
+                                "count": 18
+                            },
+                            {
+                                "item": "120000000000",
+                                "count": 17
+                            },
+                            {
+                                "item": "23000000000",
+                                "count": 16
+                            },
+                            {
+                                "item": "20000000000000",
+                                "count": 15
+                            },
+                            {
+                                "item": "10000000000000",
+                                "count": 14
+                            }
+                        ],
+                        "smallest": "20000000000",
+                        "sum": "450587000000000"
+                    },
+                    "format": {}
+                },
+                {
+                    "id": 198224712,
+                    "name": "Calculated Total Impact Energy (kt)",
+                    "dataTypeName": "number",
+                    "fieldName": "calculated_total_impact_energy_kt",
+                    "position": 10,
+                    "renderTypeName": "number",
+                    "tableColumnId": 27309169,
+                    "width": 520,
+                    "cachedContents": {
+                        "non_null": 92,
+                        "average": "6.347347826086957",
+                        "largest": "440",
+                        "null": 0,
+                        "top": [
+                            {
+                                "item": "0.32",
+                                "count": 20
+                            },
+                            {
+                                "item": "0.2",
+                                "count": 19
+                            },
+                            {
+                                "item": "0.36",
+                                "count": 18
+                            },
+                            {
+                                "item": "0.23",
+                                "count": 17
+                            },
+                            {
+                                "item": "0.073",
+                                "count": 16
+                            },
+                            {
+                                "item": "0.18",
+                                "count": 15
+                            },
+                            {
+                                "item": "0.19",
+                                "count": 14
+                            },
+                            {
+                                "item": "0.11",
+                                "count": 13
+                            },
+                            {
+                                "item": "0.41",
+                                "count": 12
+                            },
+                            {
+                                "item": "0.4",
+                                "count": 11
+                            },
+                            {
+                                "item": "0.15",
+                                "count": 10
+                            },
+                            {
+                                "item": "0.24",
+                                "count": 9
+                            },
+                            {
+                                "item": "0.12",
+                                "count": 8
+                            },
+                            {
+                                "item": "0.1",
+                                "count": 7
+                            },
+                            {
+                                "item": "0.13",
+                                "count": 6
+                            },
+                            {
+                                "item": "0.092",
+                                "count": 5
+                            },
+                            {
+                                "item": "0.21",
+                                "count": 4
+                            },
+                            {
+                                "item": "6.9",
+                                "count": 3
+                            },
+                            {
+                                "item": "0.16",
+                                "count": 2
+                            },
+                            {
+                                "item": "0.55",
+                                "count": 1
+                            }
+                        ],
+                        "smallest": "0.073",
+                        "sum": "583.956"
+                    },
+                    "format": {}
+                }
+            ],
+            "grants": [
+                {
+                    "inherited": false,
+                    "type": "viewer",
+                    "flags": [
+                        "public"
+                    ]
+                }
+            ],
+            "metadata": {
+                "rdfSubject": "0",
+                "rdfClass": "",
+                "custom_fields": {
+                    "Common Core": {
+                        "Program Code": "026:009",
+                        "Bureau Code": "026:00"
+                    }
+                },
+                "rowIdentifier": "0",
+                "availableDisplayTypes": [
+                    "table",
+                    "fatrow",
+                    "page"
+                ],
+                "rowLabel": "",
+                "renderTypeConfig": {
+                    "visible": {
+                        "table": true
+                    }
+                }
+            },
+            "owner": {
+                "id": "isxt-qkkm",
+                "displayName": "NASA Public Data",
+                "profileImageUrlLarge": "/api/users/isxt-qkkm/profile_images/LARGE",
+                "profileImageUrlMedium": "/api/users/isxt-qkkm/profile_images/THUMB",
+                "profileImageUrlSmall": "/api/users/isxt-qkkm/profile_images/TINY",
+                "screenName": "NASA Public Data",
+                "type": "interactive"
+            },
+            "query": {},
+            "rights": [
+                "read"
+            ],
+            "tableAuthor": {
+                "id": "isxt-qkkm",
+                "displayName": "NASA Public Data",
+                "profileImageUrlLarge": "/api/users/isxt-qkkm/profile_images/LARGE",
+                "profileImageUrlMedium": "/api/users/isxt-qkkm/profile_images/THUMB",
+                "profileImageUrlSmall": "/api/users/isxt-qkkm/profile_images/TINY",
+                "screenName": "NASA Public Data",
+                "type": "interactive"
+            },
+            "tags": [
+                "spaceapps",
+                "outerspace",
+                "airburstvisual",
+                "intermediate",
+                "model",
+                "platform",
+                "data visualization"
+            ],
+            "flags": [
+                "default",
+                "ownerMayBeContacted",
+                "restorable",
+                "restorePossibleForType"
+            ]
+        }
+    },
+    "data": [
+        [
+            "row-qqvc_mq5u_27xj",
+            "00000000-0000-0000-B3D5-3B63053DD289",
+            0,
+            1428430887,
+            null,
+            1428430887,
+            null,
+            "{ }",
+            "2009-11-21T20:53:00",
+            "22.0S",
+            "29.2E",
+            "38",
+            "32.1",
+            "3",
+            "-17",
+            "-27",
+            "10000000000000",
+            "18"
+        ],
+        [
+            "row-8y2u.dq42-7say",
+            "00000000-0000-0000-8A06-588868E6AEEA",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-01-09T10:41:11",
+            "2.0N",
+            "28.8E",
+            "36",
+            null,
+            "-10.7",
+            "-7.6",
+            "11.6",
+            "139000000000",
+            "0.41"
+        ],
+        [
+            "row-cju2~q8f7_b6y7",
+            "00000000-0000-0000-EDE6-9C70FBC127E5",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-05-16T12:42:48",
+            "44.2S",
+            "176.2W",
+            "44",
+            null,
+            "14.4",
+            "4.6",
+            "6.5",
+            "309000000000",
+            "0.82"
+        ],
+        [
+            "row-46bp_3prk.5zmd",
+            "00000000-0000-0000-7353-E39830D83AE5",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-08-23T06:29:41",
+            "61.7S",
+            "132.6E",
+            "22.2",
+            "16.2",
+            "-2.3",
+            "5.7",
+            "16.5",
+            "3820000000000",
+            "7.6"
+        ],
+        [
+            "row-7c59-2fhg.zssa",
+            "00000000-0000-0000-E91C-1A5CA583D2A9",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-12-12T06:48:11",
+            "33.5N",
+            "144.9E",
+            "26.3",
+            null,
+            "11.5",
+            "-2.8",
+            "-2.2",
+            "33000000000",
+            "0.11"
+        ],
+        [
+            "row-cmmj-wwcd~g73m",
+            "00000000-0000-0000-8CBD-869AA523E3C9",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-07-29T07:38:07",
+            "49.2S",
+            "172.2W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "73000000000",
+            "0.23"
+        ],
+        [
+            "row-3qqd.iikm_g69r",
+            "00000000-0000-0000-9A9E-2C15C85E4554",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-06-01T22:49:48",
+            "65.6S",
+            "138.4E",
+            "28.9",
+            null,
+            null,
+            null,
+            null,
+            "34000000000",
+            "0.12"
+        ],
+        [
+            "row-whui~v2sz-a5jj",
+            "00000000-0000-0000-581D-709D0BFE6AFC",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-02-17T13:19:50",
+            "8.0S",
+            "11.2W",
+            "39",
+            null,
+            "-28.2",
+            "3.4",
+            "4.6",
+            "33000000000",
+            "0.11"
+        ],
+        [
+            "row-8gd2.fw7g_jifm",
+            "00000000-0000-0000-F1B0-AEDE7E6BD2BD",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-10-17T14:07:36",
+            "4.6S",
+            "66.3W",
+            "39",
+            null,
+            null,
+            null,
+            null,
+            "72000000000",
+            "0.23"
+        ],
+        [
+            "row-hiei-gvh3.6ixz",
+            "00000000-0000-0000-DF3A-2922BA8731AB",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-12-08T03:10:09",
+            "32.8N",
+            "165.1W",
+            "23.5",
+            null,
+            "2.3",
+            "2.5",
+            "-11.3",
+            "64000000000",
+            "0.2"
+        ],
+        [
+            "row-st6z.gdr6_ivip",
+            "00000000-0000-0000-6E69-BE655AB395E9",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-09-05T21:37:26",
+            "22.7N",
+            "150.0W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "35000000000",
+            "0.12"
+        ],
+        [
+            "row-hkjc.mu75-57ii",
+            "00000000-0000-0000-2E12-E9116A85F077",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-02-25T10:53:24",
+            "12.4N",
+            "122.4W",
+            "42",
+            null,
+            null,
+            null,
+            null,
+            "58000000000",
+            "0.19"
+        ],
+        [
+            "row-ry4r~8ydf-3kyt",
+            "00000000-0000-0000-5045-B7E0F3C7EDBF",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-11-04T20:13:30",
+            "43.1N",
+            "115.8E",
+            "22.2",
+            null,
+            "-7.2",
+            "-12.1",
+            "-7.7",
+            "156000000000",
+            "0.45"
+        ],
+        [
+            "row-hdw3_ikmz~xjb7",
+            "00000000-0000-0000-652B-3F885B22DF80",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-07-26T11:32:26",
+            "21.0N",
+            "178.5W",
+            "37",
+            null,
+            null,
+            null,
+            null,
+            "20000000000",
+            "0.073"
+        ],
+        [
+            "row-idzm-mn46.t848",
+            "00000000-0000-0000-48FF-166F26261A82",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2010-12-25T23:24:00",
+            "38.0N",
+            "158.0E",
+            "26",
+            "18.1",
+            "18",
+            "-2",
+            "-4",
+            "20000000000000",
+            "33"
+        ],
+        [
+            "row-68hz.6vji~aktu",
+            "00000000-0000-0000-F7EA-510061EDA642",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-01-07T01:05:59",
+            "45.7N",
+            "26.9E",
+            "45.5",
+            null,
+            "-35.4",
+            "1.8",
+            "-4.4",
+            "136000000000",
+            "0.4"
+        ],
+        [
+            "row-mz7f.wjtv_qetu",
+            "00000000-0000-0000-A373-8F4522B5445F",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-01-25T07:40:18",
+            "60.3N",
+            "64.6W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "3400000000000",
+            "6.9"
+        ],
+        [
+            "row-5m8i_9fxe~2q47",
+            "00000000-0000-0000-2D6B-D1ADF7A5E88A",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-08-28T03:07:45",
+            "3.2N",
+            "45.4W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "34000000000",
+            "0.12"
+        ],
+        [
+            "row-59d2_kgnm.pph9",
+            "00000000-0000-0000-D42A-C0082244D88C",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-01-15T02:46:19",
+            "18.5S",
+            "141.8E",
+            "29.6",
+            null,
+            null,
+            null,
+            null,
+            "140000000000",
+            "0.41"
+        ],
+        [
+            "row-ciw6_fes3~yvv9",
+            "00000000-0000-0000-D7AA-C816B55022BA",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-12-23T08:30:57",
+            "39.5N",
+            "2.0E",
+            "34.3",
+            null,
+            "-1.1",
+            "11.4",
+            "-9.9",
+            "147000000000",
+            "0.43"
+        ],
+        [
+            "row-gksi-fnzx.ncr6",
+            "00000000-0000-0000-CCCF-7EEBE45BB58D",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-11-26T17:40:16",
+            "68.2S",
+            "24.0W",
+            "37",
+            null,
+            "-7",
+            "16.1",
+            "9.4",
+            "105000000000",
+            "0.32"
+        ],
+        [
+            "row-ci9g-c8wq-wjku",
+            "00000000-0000-0000-A64E-51F3D3005735",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-03-18T11:02:37",
+            "0.0N",
+            "111.8W",
+            "30.5",
+            null,
+            null,
+            null,
+            null,
+            "540000000000",
+            "1.3"
+        ],
+        [
+            "row-igyh-493r.5djk",
+            "00000000-0000-0000-19C1-2DABC4B2BF21",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-03-03T15:00:21",
+            "29.0S",
+            "94.9W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "94000000000",
+            "0.29"
+        ],
+        [
+            "row-wbw5.p5a6-eqqm",
+            "00000000-0000-0000-8162-04A64838EF0C",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-02-15T03:20:33",
+            "54.8N",
+            "61.1E",
+            "23.3",
+            "18.6",
+            "12.8",
+            "-13.3",
+            "-2.4",
+            "375000000000000",
+            "440"
+        ],
+        [
+            "row-tcn2-59pz~wj3j",
+            "00000000-0000-0000-49A8-BE77BC38FAA4",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-03-29T13:45:41",
+            "28.7S",
+            "121.5E",
+            "30.7",
+            null,
+            "10",
+            "-12.7",
+            "2.2",
+            "39000000000",
+            "0.13"
+        ],
+        [
+            "row-uhh8-9uw8_bcny",
+            "00000000-0000-0000-2E03-BCD80F9BCDFD",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2009-10-08T02:57:00",
+            "4.2S",
+            "120.6E",
+            "19.1",
+            "19.2",
+            "14",
+            "-16",
+            "-6",
+            "20000000000000",
+            "33"
+        ],
+        [
+            "row-y8pw-9w4d_53ui",
+            "00000000-0000-0000-105A-5BA87F4D3795",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-06-28T02:40:07",
+            "18.9N",
+            "141.2E",
+            "26.3",
+            "12.4",
+            "12",
+            "3.5",
+            "-10.5",
+            "245000000000",
+            "0.67"
+        ],
+        [
+            "row-43ir-khtx~jjqx",
+            "00000000-0000-0000-682E-439BE7C0D4F8",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-10-21T18:55:37",
+            "22.2N",
+            "132.9W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "34000000000",
+            "0.12"
+        ],
+        [
+            "row-e3n2-5ac7_cqbc",
+            "00000000-0000-0000-74A0-8766BEF51F31",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-10-12T16:06:45",
+            "19.1S",
+            "25.0W",
+            "22.2",
+            null,
+            "-8",
+            "8.4",
+            "-5.5",
+            "1610000000000",
+            "3.5"
+        ],
+        [
+            "row-76ew_purc.6snp",
+            "00000000-0000-0000-F082-489FF215E984",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-11-21T01:50:35",
+            "44.7N",
+            "35.3E",
+            "59.3",
+            null,
+            "-5",
+            "-11",
+            "-2.7",
+            "75000000000",
+            "0.23"
+        ],
+        [
+            "row-tzgm~89fw~xwpt",
+            "00000000-0000-0000-ECDD-5953E0C53298",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-07-29T03:07:43",
+            "33.9S",
+            "115.9W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "53000000000",
+            "0.17"
+        ],
+        [
+            "row-qzfi.rvaj-nuez",
+            "00000000-0000-0000-8BF6-F01D54502DF0",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-03-12T10:32:59",
+            "32.7S",
+            "17.1E",
+            "26",
+            null,
+            null,
+            null,
+            null,
+            "29000000000",
+            "0.1"
+        ],
+        [
+            "row-ut2w~g4pi-k2yi",
+            "00000000-0000-0000-2C1F-447B0AAB42AE",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-11-27T12:12:52",
+            "18.8S",
+            "73.4W",
+            "38",
+            null,
+            null,
+            null,
+            null,
+            "55000000000",
+            "0.18"
+        ],
+        [
+            "row-ajpt_qrh7_h9d7",
+            "00000000-0000-0000-E297-E9D718E69A30",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-02-18T12:50:44",
+            "32.8S",
+            "61.5W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "26000000000",
+            "0.092"
+        ],
+        [
+            "row-n78a-hxq7.ghgj",
+            "00000000-0000-0000-F74E-712BAED7F786",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-07-31T03:50:14",
+            "31.8S",
+            "137.1E",
+            "29.1",
+            null,
+            "17.7",
+            "-2.3",
+            "-0.1",
+            "69000000000",
+            "0.22"
+        ],
+        [
+            "row-6kq2_bbr4-z8m8",
+            "00000000-0000-0000-7D59-24F309ECBE90",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-02-26T22:06:24",
+            "68.0N",
+            "149.0W",
+            "33.7",
+            null,
+            "5.6",
+            "-2.3",
+            "-20.2",
+            "188000000000",
+            "0.53"
+        ],
+        [
+            "row-si8n.jifu.u2nt",
+            "00000000-0000-0000-2B9E-8B3B25C68FE0",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-12-09T21:19:18",
+            "76.6N",
+            "96.3E",
+            "26.3",
+            null,
+            null,
+            null,
+            null,
+            "78000000000",
+            "0.24"
+        ],
+        [
+            "row-3rc9-y8es~7ah7",
+            "00000000-0000-0000-73A7-D1D6D2AD99CE",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-08-12T18:08:02",
+            "34.4S",
+            "118.2E",
+            "66.6",
+            null,
+            null,
+            null,
+            null,
+            "44000000000",
+            "0.15"
+        ],
+        [
+            "row-psg2~bybe-42x6",
+            "00000000-0000-0000-DFA3-CAA1459CDBC0",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-01-09T17:31:47",
+            "23.3S",
+            "49.2W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "22000000000",
+            "0.079"
+        ],
+        [
+            "row-k65d~v77w~9s5c",
+            "00000000-0000-0000-26C8-6351323B80B3",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-03-04T04:30:05",
+            "15.9S",
+            "88.1E",
+            "39.8",
+            null,
+            "7.8",
+            "-16",
+            "-2.5",
+            "55000000000",
+            "0.18"
+        ],
+        [
+            "row-kp2e_ndqn.jr4y",
+            "00000000-0000-0000-8DC4-14B6C4222696",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-01-12T03:04:21",
+            "15.1S",
+            "155.6W",
+            "36.1",
+            null,
+            null,
+            null,
+            null,
+            "48000000000",
+            "0.16"
+        ],
+        [
+            "row-nwn5.gahs.uzx2",
+            "00000000-0000-0000-A9F6-8D0715D5369D",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-02-13T06:47:42",
+            "13.3N",
+            "110.7W",
+            "25",
+            null,
+            null,
+            null,
+            null,
+            "630000000000",
+            "1.5"
+        ],
+        [
+            "row-ceim.k9ah_ig9a",
+            "00000000-0000-0000-5FFE-E6D8E55207A6",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-07-30T02:36:58",
+            "50.2S",
+            "90.2E",
+            "25.6",
+            null,
+            "15.9",
+            "-8.6",
+            "5.1",
+            "390000000000",
+            "1"
+        ],
+        [
+            "row-2w2x~9wcp-qu2e",
+            "00000000-0000-0000-94B1-813FF61916E7",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-09-24T15:31:16",
+            "10.3S",
+            "164.7W",
+            "40.7",
+            null,
+            null,
+            null,
+            null,
+            "160000000000",
+            "0.46"
+        ],
+        [
+            "row-hesk.cbpd.5ptr",
+            "00000000-0000-0000-9070-FBD4E9305DE9",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-04-30T08:40:38",
+            "35.5N",
+            "30.7W",
+            "21.2",
+            null,
+            "1",
+            "9",
+            "-8",
+            "5110000000000",
+            "10"
+        ],
+        [
+            "row-xhss_t2cn.vff6",
+            "00000000-0000-0000-3541-526E01006D35",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-07-27T08:30:36",
+            "0.3N",
+            "156.2E",
+            "26.5",
+            null,
+            "16",
+            "14.9",
+            "-3.3",
+            "120000000000",
+            "0.36"
+        ],
+        [
+            "row-pyz7~8ued_4nmm",
+            "00000000-0000-0000-EE99-89F6AA280614",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-08-29T23:15:39",
+            "6.2S",
+            "49.9W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "26000000000",
+            "0.092"
+        ],
+        [
+            "row-iwen_rtv3~tynd",
+            "00000000-0000-0000-6910-CACA87EB0328",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-05-16T20:06:28",
+            "39.4S",
+            "95.9W",
+            "30.8",
+            "18",
+            "2.9",
+            "13.4",
+            "-12.5",
+            "136000000000",
+            "0.4"
+        ],
+        [
+            "row-3v2h.mjuj-883t",
+            "00000000-0000-0000-36A5-761A5FD94D9F",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-02-20T13:13:07",
+            "23.0S",
+            "38.8W",
+            null,
+            null,
+            "-11",
+            "-8",
+            "-1",
+            "32000000000",
+            "0.1"
+        ],
+        [
+            "row-hi4s_n63b.v8gm",
+            "00000000-0000-0000-89FB-5F7D73B01AD5",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-01-08T17:05:34",
+            "1.3S",
+            "147.6E",
+            "18.7",
+            null,
+            "-3.4",
+            "-43.5",
+            "-10.3",
+            "31000000000",
+            "0.11"
+        ],
+        [
+            "row-88jw.hnsu-xrjn",
+            "00000000-0000-0000-E582-F51D815B8FEF",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-05-08T19:42:37",
+            "36.9S",
+            "87.3E",
+            "35.4",
+            null,
+            "-2",
+            "-16.1",
+            "9.9",
+            "1050000000000",
+            "2.4"
+        ],
+        [
+            "row-3csf.fnvt~65mx",
+            "00000000-0000-0000-4749-8225E1B272AE",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-04-21T06:23:12",
+            "28.1S",
+            "64.6W",
+            "40.7",
+            null,
+            "5",
+            "14",
+            "1",
+            "1070000000000",
+            "2.5"
+        ],
+        [
+            "row-6y4r~5vu8~wa2z",
+            "00000000-0000-0000-8836-8537F2DF4259",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-12-13T02:53:52",
+            "86.7N",
+            "162.1W",
+            "30.7",
+            null,
+            "15.3",
+            "-13.3",
+            "-7.8",
+            "44000000000",
+            "0.15"
+        ],
+        [
+            "row-h6yk.2pwe_r6g4",
+            "00000000-0000-0000-6A26-52082B06F7B8",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-09-09T18:55:46",
+            "3.2N",
+            "137.2E",
+            "32.5",
+            null,
+            null,
+            null,
+            null,
+            "28000000000",
+            "0.098"
+        ],
+        [
+            "row-bzub-i3ku_mz5j",
+            "00000000-0000-0000-9909-B1D55A51B995",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-11-26T23:16:51",
+            "69.5S",
+            "179.7W",
+            "23.3",
+            null,
+            "21.3",
+            "2.2",
+            "13.4",
+            "118000000000",
+            "0.35"
+        ],
+        [
+            "row-xjpm.ms84_25n9",
+            "00000000-0000-0000-0033-C01F5865958C",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-03-08T04:26:28",
+            "39.1S",
+            "118.6W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "20000000000",
+            "0.073"
+        ],
+        [
+            "row-v89m_hqpb.d75n",
+            "00000000-0000-0000-BFAA-7E8D57307320",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-01-02T13:39:19",
+            "31.1S",
+            "140.0E",
+            "38.1",
+            null,
+            "4.5",
+            "-14.4",
+            "-10",
+            "20000000000",
+            "0.073"
+        ],
+        [
+            "row-kf3f_zr3b~ne68",
+            "00000000-0000-0000-5AA6-9FDFB0A6E6CB",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2015-03-11T06:18:59",
+            "8.0N",
+            "119.1E",
+            "35.2",
+            null,
+            "5.5",
+            "-10.5",
+            "-16",
+            "72000000000",
+            "0.23"
+        ],
+        [
+            "row-gcbz.ehpe~tezc",
+            "00000000-0000-0000-D123-69ECC4874F27",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-06-26T05:54:41",
+            "71.5S",
+            "93.4E",
+            "28.5",
+            null,
+            "7",
+            "2.9",
+            "8.3",
+            "61000000000",
+            "0.2"
+        ],
+        [
+            "row-wdpb_4iq9-vp64",
+            "00000000-0000-0000-E62B-59B849AA5448",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-10-06T20:02:15",
+            "43.7S",
+            "85.7E",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "39000000000",
+            "0.13"
+        ],
+        [
+            "row-6hn7.hhvr.te7z",
+            "00000000-0000-0000-99F9-8D3DF65E5CEB",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-01-12T16:00:48",
+            "2.9N",
+            "64.4E",
+            "37",
+            null,
+            "-5.2",
+            "-15.1",
+            "2.6",
+            "78000000000",
+            "0.24"
+        ],
+        [
+            "row-gq2q_kth3.5ufi",
+            "00000000-0000-0000-7C65-0B2E53EAE065",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-11-28T11:47:18",
+            "45.8S",
+            "172.7W",
+            "26.1",
+            null,
+            "0.4",
+            "-1.4",
+            "13.3",
+            "700000000000",
+            "1.7"
+        ],
+        [
+            "row-dkr4~umk7-rdp6",
+            "00000000-0000-0000-BD0E-FCDF6B32F1CF",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-10-14T10:25:03",
+            "2.0S",
+            "119.2E",
+            "27.2",
+            null,
+            "15",
+            "-6.9",
+            "-3.5",
+            "29000000000",
+            "0.1"
+        ],
+        [
+            "row-vp55~sdyz-692c",
+            "00000000-0000-0000-7092-005980491475",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2014-05-29T01:12:36",
+            "21.9N",
+            "131.1W",
+            "28.7",
+            null,
+            null,
+            null,
+            null,
+            "58000000000",
+            "0.19"
+        ],
+        [
+            "row-d5cw~trb6.n6va",
+            "00000000-0000-0000-4581-1E451F208605",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-02-07T13:12:24",
+            "18.8S",
+            "158.6W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "65000000000",
+            "0.21"
+        ],
+        [
+            "row-ynwg-zmia.3yku",
+            "00000000-0000-0000-B907-E1046586CAB0",
+            0,
+            1428434514,
+            null,
+            1428434514,
+            null,
+            "{ }",
+            "2013-05-14T23:20:21",
+            "3.0S",
+            "76.4E",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "20000000000",
+            "0.073"
+        ],
+        [
+            "row-jhvd-9nfh-p68t",
+            "00000000-0000-0000-34D3-041CF8BF77B6",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2012-10-03T22:50:12",
+            "41.5S",
+            "21.9W",
+            null,
+            null,
+            "-2.4",
+            "5.5",
+            "15.9",
+            "280000000000",
+            "0.75"
+        ],
+        [
+            "row-fj8s_9pg8-8kkm",
+            "00000000-0000-0000-1927-316F9613AFFC",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2012-12-30T07:25:35",
+            "17.3N",
+            "83.6W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "198000000000",
+            "0.55"
+        ],
+        [
+            "row-m39q.jgfc-kyu2",
+            "00000000-0000-0000-52B5-EFE3E28FCA93",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2015-03-18T00:04:50",
+            "5.4S",
+            "159.3E",
+            "50",
+            null,
+            null,
+            null,
+            null,
+            "121000000000",
+            "0.36"
+        ],
+        [
+            "row-6kvp-7sue.h2bk",
+            "00000000-0000-0000-154F-640CEF8F22EC",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2012-10-02T16:38:38",
+            "8.1S",
+            "111.9W",
+            "35",
+            null,
+            "1.4",
+            "15.3",
+            "1",
+            "470000000000",
+            "1.2"
+        ],
+        [
+            "row-xmki.mxex~ni4c",
+            "00000000-0000-0000-E0D2-8D1DB7D86371",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2012-09-28T05:44:12",
+            "6.9S",
+            "73.7E",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "38000000000",
+            "0.13"
+        ],
+        [
+            "row-jw4z.bkrh~rqeq",
+            "00000000-0000-0000-F0B0-B64743BAAC45",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2012-05-25T11:31:24",
+            "41.8S",
+            "36.2W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "60000000000",
+            "0.19"
+        ],
+        [
+            "row-ha3b~t229~dt2i",
+            "00000000-0000-0000-C234-6D7505AD87F0",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2012-11-20T20:37:31",
+            "2.5N",
+            "29.6E",
+            "33.3",
+            null,
+            "-12.2",
+            "-5.3",
+            "5.3",
+            "25000000000",
+            "0.089"
+        ],
+        [
+            "row-tayd~2bfa-txs7",
+            "00000000-0000-0000-60A5-F54D8F17CA2A",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2012-11-20T06:25:11",
+            "8.0S",
+            "86.0W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "120000000000",
+            "0.36"
+        ],
+        [
+            "row-irff-v8ph-8gb5",
+            "00000000-0000-0000-34C1-FF4B1FF7B2EF",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2012-10-19T16:26:22",
+            "75.4S",
+            "49.6E",
+            "29.3",
+            null,
+            "-2.3",
+            "-3.9",
+            "12.4",
+            "23000000000",
+            "0.082"
+        ],
+        [
+            "row-68xy~bfid_4jiu",
+            "00000000-0000-0000-D231-E4BD96696221",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2015-03-30T21:33:52",
+            "36.1S",
+            "5.5W",
+            "33.1",
+            null,
+            "-13.7",
+            "-1.7",
+            "0.8",
+            "64000000000",
+            "0.2"
+        ],
+        [
+            "row-j9az-zk2c-53fa",
+            "00000000-0000-0000-4A74-27572215ABC1",
+            0,
+            1428571821,
+            null,
+            1428571821,
+            null,
+            "{ }",
+            "2012-10-09T00:54:55",
+            "51.2N",
+            "84.6W",
+            "27.8",
+            null,
+            "3.4",
+            "12",
+            "5.1",
+            "210000000000",
+            "0.58"
+        ],
+        [
+            "row-sptr-ntsf~qmxa",
+            "00000000-0000-0000-EFDE-14CD97C1AE95",
+            0,
+            1429176615,
+            null,
+            1429176615,
+            null,
+            "{ }",
+            "2012-09-10T01:03:32",
+            "69.8S",
+            "111.7W",
+            "23.8",
+            null,
+            "-10.2",
+            "-5.2",
+            "12.4",
+            "23000000000",
+            "0.082"
+        ],
+        [
+            "row-25fz.8rhw.9qen",
+            "00000000-0000-0000-B189-C6F37BE643A1",
+            0,
+            1429176615,
+            null,
+            1429176615,
+            null,
+            "{ }",
+            "2015-04-08T04:06:31",
+            "25.5S",
+            "51.5E",
+            "36.3",
+            null,
+            "8",
+            "-15.6",
+            "-7.9",
+            "173000000000",
+            "0.49"
+        ],
+        [
+            "row-75zr-jqbz~k94u",
+            "00000000-0000-0000-8B41-D4C35CC2A565",
+            0,
+            1429176615,
+            null,
+            1429176615,
+            null,
+            "{ }",
+            "2012-08-27T06:57:43",
+            "18.3S",
+            "64.2E",
+            "38.7",
+            null,
+            "-8",
+            "-23.7",
+            "-14.5",
+            "68000000000",
+            "0.22"
+        ],
+        [
+            "row-iqkm-eqjh~hmm4",
+            "00000000-0000-0000-96B8-5897F53CEE63",
+            0,
+            1429176615,
+            null,
+            1429176615,
+            null,
+            "{ }",
+            "2012-08-26T14:55:47",
+            "11.8N",
+            "117.0E",
+            "36",
+            null,
+            "5",
+            "-11.6",
+            "-0.7",
+            "249000000000",
+            "0.68"
+        ],
+        [
+            "row-araj~u28h~fd6t",
+            "00000000-0000-0000-C3D0-6D1844CE4B19",
+            0,
+            1429176615,
+            null,
+            1429176615,
+            null,
+            "{ }",
+            "2012-09-18T19:34:39",
+            "1.2N",
+            "52.2W",
+            "28.1",
+            null,
+            "-1.9",
+            "14.1",
+            "-11.5",
+            "244000000000",
+            "0.67"
+        ],
+        [
+            "row-827t~cwgz~d7t9",
+            "00000000-0000-0000-471D-3F74E163D315",
+            0,
+            1429176615,
+            null,
+            1429176615,
+            null,
+            "{ }",
+            "2015-04-03T01:39:38",
+            "8.4N",
+            "157.9W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "42000000000",
+            "0.14"
+        ],
+        [
+            "row-687p.xu3f-j69r",
+            "00000000-0000-0000-2BF5-5202D068A1C5",
+            0,
+            1429176615,
+            null,
+            1429176615,
+            null,
+            "{ }",
+            "2012-09-11T22:07:30",
+            "18.9S",
+            "105.2E",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "52000000000",
+            "0.17"
+        ],
+        [
+            "row-j8me_3pne~pgvr",
+            "00000000-0000-0000-5F4F-855E9F761A95",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2012-04-21T16:08:23",
+            "15.8S",
+            "174.8W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "143000000000",
+            "0.42"
+        ],
+        [
+            "row-iuaj-qkyj_fngt",
+            "00000000-0000-0000-D1F2-164202F2831C",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2015-04-30T10:21:01",
+            "48.7S",
+            "139.1E",
+            "26.7",
+            null,
+            "12.2",
+            "-4.2",
+            "0.9",
+            "105000000000",
+            "0.32"
+        ],
+        [
+            "row-gbhc_4zu3~v6e6",
+            "00000000-0000-0000-0044-7FA2B99D9F05",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2012-07-27T04:19:50",
+            "63.1N",
+            "172.3E",
+            "27.2",
+            null,
+            null,
+            null,
+            null,
+            "34000000000",
+            "0.12"
+        ],
+        [
+            "row-rrv9_5ams~t893",
+            "00000000-0000-0000-7DDC-948E6CCDA19B",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2012-05-04T21:54:49",
+            "76.7N",
+            "10.6W",
+            null,
+            null,
+            null,
+            null,
+            null,
+            "229000000000",
+            "0.63"
+        ],
+        [
+            "row-ea88_pbq7-4n7i",
+            "00000000-0000-0000-6360-BC33D2986ED7",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2012-04-23T22:01:10",
+            "36.2N",
+            "107.4E",
+            "25.2",
+            null,
+            null,
+            null,
+            null,
+            "44000000000",
+            "0.15"
+        ],
+        [
+            "row-atif-qn38_syje",
+            "00000000-0000-0000-5740-8F57B1576ED5",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2012-07-25T07:48:20",
+            "36.4N",
+            "41.5E",
+            "26.8",
+            null,
+            "0.8",
+            "2",
+            "-18.4",
+            "133000000000",
+            "0.39"
+        ],
+        [
+            "row-2ej3~j4aw-mh38",
+            "00000000-0000-0000-5465-6229FF9ED7C6",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2015-04-21T01:42:51",
+            "37.7N",
+            "39.6W",
+            "37.4",
+            null,
+            "-15.3",
+            "12.8",
+            "7.4",
+            "88000000000",
+            "0.27"
+        ],
+        [
+            "row-wdg3~sp4b~c89z",
+            "00000000-0000-0000-1F44-502D5F42CF59",
+            0,
+            1430472615,
+            null,
+            1430472615,
+            null,
+            "{ }",
+            "2012-05-15T11:04:17",
+            "61.8S",
+            "135.5W",
+            "33.3",
+            null,
+            "-0.8",
+            "1.1",
+            "17",
+            "132000000000",
+            "0.39"
+        ]
+    ]
+}
