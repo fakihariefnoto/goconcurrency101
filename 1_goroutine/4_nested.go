@@ -24,6 +24,6 @@ func loop1(max int) {
 
 func loop2(min int) {
 	for i := min; i < 5; i++ {
-		fmt.Printf("Dari loop 2-%v -> %v\n", x, i)
+		fmt.Printf("Dari loop 2-%v -> %v\n", min, i)
 	}
 }
