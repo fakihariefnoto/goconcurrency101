@@ -5,12 +5,7 @@ import (
 )
 
 func main() {
-	Problem2()
-}
-
-// Problem2 Deadlock
-func Problem2() {
 	n := make(chan int)
-	n <- 1
+	n <- 1 // data stuck here, there is no cap
 	fmt.Println("Total n", <-n)
 }

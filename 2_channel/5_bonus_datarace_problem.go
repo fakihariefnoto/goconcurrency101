@@ -5,10 +5,6 @@ import (
 )
 
 func main() {
-	Problem()
-}
-
-func Problem() {
 	var n int
 
 	for i := 0; i < 100; i++ {
