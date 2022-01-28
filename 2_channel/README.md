@@ -1,1 +1,5 @@
-Tokopedia Tech Workshop - Concurrency in Golang 2022
+Some example relative to channel in golang
+
+Golang Playground Link
+1_basic.go -> https://go.dev/play/p/Th-MZFEzR2e
+
